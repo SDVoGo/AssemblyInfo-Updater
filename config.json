@@ -1,0 +1,4 @@
+{
+  "path_glob_assemblyinfo": "Repos/C#Project/*/Properties/AssemblyInfo.cs",
+  "pattern_assemblyinfo": "\\[assembly:\\s*AssemblyVersion\\(\"(\\d+\\.\\d+\\.\\d+\\.\\d+)\"\\)\\]"
+}

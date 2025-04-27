@@ -52,24 +52,13 @@ Example of `config.json`:
     "pattern_assemblyinfo": "\\[assembly:\\s*AssemblyVersion\\(\"(\\d+\\.\\d+\\.\\d+\\.\\d+)\"\\)\\]"
 }
 ```
-
 ### Updating Version
 
-To update the version across your projects, run the following Python script:
+Run entry point `main.py`
 
 ```bash
-python src/main.py <new_version>
+python main.py
 ```
-
-Where `<new_version>` is the new version string, e.g., `1.2.3.4`.
-
-### Example
-
-```bash
-python src/main.py 1.2.3.4
-```
-
-This will update all `AssemblyInfo.cs` files across the specified projects with the new version `1.2.3.4`.
 
 ### Testing
 
